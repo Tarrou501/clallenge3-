@@ -14,4 +14,10 @@
     <ProjectReference Include="..\WebApp.Repositorio\WebApp.Repositorio.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

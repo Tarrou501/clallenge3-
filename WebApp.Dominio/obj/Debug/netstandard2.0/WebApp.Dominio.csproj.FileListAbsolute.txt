@@ -15,3 +15,4 @@ C:\Projetos\fagrontech\clallenge3-\WebApp.Dominio\obj\Debug\netstandard2.0\WebAp
 C:\Projetos\fagrontech\clallenge3-\WebApp.Dominio\obj\Debug\netstandard2.0\WebApp.Dominio.AssemblyInfo.cs
 C:\Projetos\fagrontech\clallenge3-\WebApp.Dominio\obj\Debug\netstandard2.0\WebApp.Dominio.dll
 C:\Projetos\fagrontech\clallenge3-\WebApp.Dominio\obj\Debug\netstandard2.0\WebApp.Dominio.pdb
+C:\Projetos\fagrontech\clallenge3-\WebApp.Dominio\obj\Debug\netstandard2.0\WebApp.Dominio.csproj.AssemblyReference.cache

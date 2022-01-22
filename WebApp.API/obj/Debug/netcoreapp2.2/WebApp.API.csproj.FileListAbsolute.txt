@@ -36,3 +36,4 @@ C:\Projetos\fagrontech\clallenge3-\WebApp.API\obj\Debug\netcoreapp2.2\WebApp.API
 C:\Projetos\fagrontech\clallenge3-\WebApp.API\obj\Debug\netcoreapp2.2\WebApp.API.csproj.CopyComplete
 C:\Projetos\fagrontech\clallenge3-\WebApp.API\obj\Debug\netcoreapp2.2\WebApp.API.dll
 C:\Projetos\fagrontech\clallenge3-\WebApp.API\obj\Debug\netcoreapp2.2\WebApp.API.pdb
+C:\Projetos\fagrontech\clallenge3-\WebApp.API\bin\Debug\netcoreapp2.2\config.json
