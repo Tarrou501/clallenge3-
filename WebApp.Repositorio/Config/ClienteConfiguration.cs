@@ -27,17 +27,19 @@ namespace WebApp.Repositorio.Config
             builder
                 .Property(c => c.DataNasc)
                 .IsRequired();
+
+            builder
+             .Ignore(c => c.Idade);
+
             builder
              .Property(c => c.Profissao)
              .IsRequired(false);
-            builder
-             .Property(c => c.Idade)
-             .ValueGeneratedNever();
 
             builder
              .HasIndex(c => c.SobreNome);
-             
 
+            builder
+                .ToTable("t_Cliente");
         }
     }
 }

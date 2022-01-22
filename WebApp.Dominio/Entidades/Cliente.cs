@@ -14,7 +14,7 @@ namespace WebApp.Dominio.Entidades
         public DateTime DataNasc { get; set; }
         public int Idade { get; set; }
 
-        public int Profissao { get; set; }
+        public System.Nullable<int> Profissao { get; set; }
 
     }
 }
