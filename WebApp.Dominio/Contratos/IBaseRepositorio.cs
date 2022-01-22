@@ -4,7 +4,7 @@ using System.Text;
 
 namespace WebApp.Dominio.Contratos
 {
-    public interface IBaseRepositorio<TEntity>:IDisposable where TEntity:class
+    public interface IBaseRepositorio<TEntity> : IDisposable where TEntity : class
     {
         void Adicionar(TEntity entity);
 
@@ -13,7 +13,7 @@ namespace WebApp.Dominio.Contratos
         IEnumerable<TEntity> ObterTodos();
 
         void Atualizar(TEntity entity);
-        
+
         void Remover(TEntity entity);
     }
 }
