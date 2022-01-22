@@ -7,3 +7,12 @@ C:\Projetos\fagrontech\WebApp.Dominio\obj\Debug\netstandard2.0\WebApp.Dominio.As
 C:\Projetos\fagrontech\WebApp.Dominio\obj\Debug\netstandard2.0\WebApp.Dominio.AssemblyInfo.cs
 C:\Projetos\fagrontech\WebApp.Dominio\obj\Debug\netstandard2.0\WebApp.Dominio.dll
 C:\Projetos\fagrontech\WebApp.Dominio\obj\Debug\netstandard2.0\WebApp.Dominio.pdb
+C:\Projetos\fagrontech\clallenge3-\WebApp.Dominio\bin\Debug\netstandard2.0\WebApp.Dominio.deps.json
+C:\Projetos\fagrontech\clallenge3-\WebApp.Dominio\bin\Debug\netstandard2.0\WebApp.Dominio.dll
+C:\Projetos\fagrontech\clallenge3-\WebApp.Dominio\bin\Debug\netstandard2.0\WebApp.Dominio.pdb
+C:\Projetos\fagrontech\clallenge3-\WebApp.Dominio\obj\Debug\netstandard2.0\WebApp.Dominio.csproj.AssemblyReference.cache
+C:\Projetos\fagrontech\clallenge3-\WebApp.Dominio\obj\Debug\netstandard2.0\WebApp.Dominio.csproj.CoreCompileInputs.cache
+C:\Projetos\fagrontech\clallenge3-\WebApp.Dominio\obj\Debug\netstandard2.0\WebApp.Dominio.AssemblyInfoInputs.cache
+C:\Projetos\fagrontech\clallenge3-\WebApp.Dominio\obj\Debug\netstandard2.0\WebApp.Dominio.AssemblyInfo.cs
+C:\Projetos\fagrontech\clallenge3-\WebApp.Dominio\obj\Debug\netstandard2.0\WebApp.Dominio.dll
+C:\Projetos\fagrontech\clallenge3-\WebApp.Dominio\obj\Debug\netstandard2.0\WebApp.Dominio.pdb

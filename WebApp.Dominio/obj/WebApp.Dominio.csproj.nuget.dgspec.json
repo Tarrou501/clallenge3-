@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\fagrontech\\WebApp.Dominio\\WebApp.Dominio.csproj": {}
+    "C:\\Projetos\\fagrontech\\clallenge3-\\WebApp.Dominio\\WebApp.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\fagrontech\\WebApp.Dominio\\WebApp.Dominio.csproj": {
+    "C:\\Projetos\\fagrontech\\clallenge3-\\WebApp.Dominio\\WebApp.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\fagrontech\\WebApp.Dominio\\WebApp.Dominio.csproj",
+        "projectUniqueName": "C:\\Projetos\\fagrontech\\clallenge3-\\WebApp.Dominio\\WebApp.Dominio.csproj",
         "projectName": "WebApp.Dominio",
-        "projectPath": "C:\\Projetos\\fagrontech\\WebApp.Dominio\\WebApp.Dominio.csproj",
+        "projectPath": "C:\\Projetos\\fagrontech\\clallenge3-\\WebApp.Dominio\\WebApp.Dominio.csproj",
         "packagesPath": "C:\\Users\\Tarrou\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\fagrontech\\WebApp.Dominio\\obj\\",
+        "outputPath": "C:\\Projetos\\fagrontech\\clallenge3-\\WebApp.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

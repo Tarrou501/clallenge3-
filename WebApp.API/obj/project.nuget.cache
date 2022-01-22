@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jOYAVpUb7TkrcQl+dUZpVTLl1SJFu3hrQno0cGHY2yI5Nh4Ky3ae+qgOiI3Rr3g8dS3E5egeNeVdz0NVBdldow==",
+  "dgSpecHash": "F/ayr+C/n2TmWP6Sk+9l49vFeXIwTR9f4UOH1+xNrEBfwkWfnw+JFqYtUBBmDlJ8EJWnbH08KId63WknbteJkg==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\fagrontech\\WebApp.API\\WebApp.API.csproj",
+  "projectFilePath": "C:\\Projetos\\fagrontech\\clallenge3-\\WebApp.API\\WebApp.API.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",

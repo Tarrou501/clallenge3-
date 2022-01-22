@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9wNMO+q5bjUFpdCdaOyg6+eQIUjhVtOGhpwmKRc/28a4pv3I9w07nteAjNQXGIOeRMeg0WaXw5HA4QYflkmeUQ==",
+  "dgSpecHash": "y+u54q3l5y9XKDqQ2fq5nDuRjMWzdVfhCQvjRCwRjRcKJcyLcDi3QZogeW2MgpZOHpWNbA7subOiY+frnRQ/5Q==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\fagrontech\\WebApp.Repositorio\\WebApp.Repositorio.csproj",
+  "projectFilePath": "C:\\Projetos\\fagrontech\\clallenge3-\\WebApp.Repositorio\\WebApp.Repositorio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tarrou\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

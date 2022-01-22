@@ -12194,11 +12194,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\fagrontech\\WebApp.API\\WebApp.API.csproj",
+      "projectUniqueName": "C:\\Projetos\\fagrontech\\clallenge3-\\WebApp.API\\WebApp.API.csproj",
       "projectName": "WebApp.API",
-      "projectPath": "C:\\Projetos\\fagrontech\\WebApp.API\\WebApp.API.csproj",
+      "projectPath": "C:\\Projetos\\fagrontech\\clallenge3-\\WebApp.API\\WebApp.API.csproj",
       "packagesPath": "C:\\Users\\Tarrou\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\fagrontech\\WebApp.API\\obj\\",
+      "outputPath": "C:\\Projetos\\fagrontech\\clallenge3-\\WebApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12218,8 +12218,8 @@
         "netcoreapp2.2": {
           "targetAlias": "netcoreapp2.2",
           "projectReferences": {
-            "C:\\Projetos\\fagrontech\\WebApp.Repositorio\\WebApp.Repositorio.csproj": {
-              "projectPath": "C:\\Projetos\\fagrontech\\WebApp.Repositorio\\WebApp.Repositorio.csproj"
+            "C:\\Projetos\\fagrontech\\clallenge3-\\WebApp.Repositorio\\WebApp.Repositorio.csproj": {
+              "projectPath": "C:\\Projetos\\fagrontech\\clallenge3-\\WebApp.Repositorio\\WebApp.Repositorio.csproj"
             }
           }
         }
@@ -12253,16 +12253,10 @@
           }
         },
         "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
+          "net461"
         ],
         "assetTargetFallback": true,
-        "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "warn": true
       }
     }
   }

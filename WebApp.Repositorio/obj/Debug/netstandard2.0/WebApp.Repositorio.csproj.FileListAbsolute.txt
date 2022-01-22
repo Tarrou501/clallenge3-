@@ -10,3 +10,15 @@ C:\Projetos\fagrontech\WebApp.Repositorio\bin\Debug\netstandard2.0\WebApp.Domini
 C:\Projetos\fagrontech\WebApp.Repositorio\bin\Debug\netstandard2.0\WebApp.Dominio.pdb
 C:\Projetos\fagrontech\WebApp.Repositorio\obj\Debug\netstandard2.0\WebApp.Repositorio.csproj.AssemblyReference.cache
 C:\Projetos\fagrontech\WebApp.Repositorio\obj\Debug\netstandard2.0\WebApp.Repositorio.csproj.CopyComplete
+C:\Projetos\fagrontech\clallenge3-\WebApp.Repositorio\bin\Debug\netstandard2.0\WebApp.Repositorio.deps.json
+C:\Projetos\fagrontech\clallenge3-\WebApp.Repositorio\bin\Debug\netstandard2.0\WebApp.Repositorio.dll
+C:\Projetos\fagrontech\clallenge3-\WebApp.Repositorio\bin\Debug\netstandard2.0\WebApp.Repositorio.pdb
+C:\Projetos\fagrontech\clallenge3-\WebApp.Repositorio\bin\Debug\netstandard2.0\WebApp.Dominio.dll
+C:\Projetos\fagrontech\clallenge3-\WebApp.Repositorio\bin\Debug\netstandard2.0\WebApp.Dominio.pdb
+C:\Projetos\fagrontech\clallenge3-\WebApp.Repositorio\obj\Debug\netstandard2.0\WebApp.Repositorio.csproj.AssemblyReference.cache
+C:\Projetos\fagrontech\clallenge3-\WebApp.Repositorio\obj\Debug\netstandard2.0\WebApp.Repositorio.csproj.CoreCompileInputs.cache
+C:\Projetos\fagrontech\clallenge3-\WebApp.Repositorio\obj\Debug\netstandard2.0\WebApp.Repositorio.AssemblyInfoInputs.cache
+C:\Projetos\fagrontech\clallenge3-\WebApp.Repositorio\obj\Debug\netstandard2.0\WebApp.Repositorio.AssemblyInfo.cs
+C:\Projetos\fagrontech\clallenge3-\WebApp.Repositorio\obj\Debug\netstandard2.0\WebApp.Repositorio.csproj.CopyComplete
+C:\Projetos\fagrontech\clallenge3-\WebApp.Repositorio\obj\Debug\netstandard2.0\WebApp.Repositorio.dll
+C:\Projetos\fagrontech\clallenge3-\WebApp.Repositorio\obj\Debug\netstandard2.0\WebApp.Repositorio.pdb
