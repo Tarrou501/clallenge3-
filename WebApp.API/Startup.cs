@@ -11,7 +11,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebApp.Dominio.Contratos;
 using WebApp.Repositorio.Contexto;
+using WebApp.Repositorio.Repositorios;
 
 namespace WebApp.API
 {
@@ -36,6 +38,8 @@ namespace WebApp.API
             services.AddDbContext<WebAppContexto>(options =>
                                    options.UseMySql(connectionString,
                                               m => m.MigrationsAssembly("WebApp.Repositorio")));
+     
+            services.AddScoped<IClienteRepositorio, ClienteRepositorio>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

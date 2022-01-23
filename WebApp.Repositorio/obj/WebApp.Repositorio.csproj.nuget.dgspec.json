@@ -101,10 +101,6 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.Proxies": {
-              "target": "Package",
-              "version": "[2.2.4, )"
-            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

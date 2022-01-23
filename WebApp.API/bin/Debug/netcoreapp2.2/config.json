@@ -1,5 +1,5 @@
 {
   "ConnectionStrings": {
-    "WebAppDBConnection": "server=localhost;uid=root;pwd=root132;database=WebAppDB"
+    "WebAppDBConnection": "server=localhost;uid=root;pwd=admin;database=DbWebApp"
   }
 }
