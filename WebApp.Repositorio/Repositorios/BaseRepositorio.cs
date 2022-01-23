@@ -44,7 +44,6 @@ namespace WebApp.Repositorio.Repositorios
         {
             WebAppContexto.Set<TEntity>().Remove(entity);
             WebAppContexto.SaveChanges();
-
         }
 
         public void Dispose()

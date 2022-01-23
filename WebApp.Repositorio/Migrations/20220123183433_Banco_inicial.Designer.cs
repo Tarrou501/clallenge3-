@@ -9,8 +9,8 @@ using WebApp.Repositorio.Contexto;
 namespace WebApp.Repositorio.Migrations
 {
     [DbContext(typeof(WebAppContexto))]
-    [Migration("20220122225805_Banco_de_Dados_inicial")]
-    partial class Banco_de_Dados_inicial
+    [Migration("20220123183433_Banco_inicial")]
+    partial class Banco_inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

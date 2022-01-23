@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebApp.Dominio.Contratos;
+using WebApp.Dominio.Entidades;
 
 namespace WebApp.API.Controllers
 {
@@ -13,9 +14,84 @@ namespace WebApp.API.Controllers
             _clienteRepositorio = clienteRepositorio;
         }
 
-        public IActionResult Index()
+        [HttpGet]
+        public IActionResult Get()
         {
-            return View();
+            try
+            {
+                return Ok(_clienteRepositorio.ObterTodos());
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest(ex.ToString());
+            }
         }
+
+        [HttpGet]
+        [Route("Recuperar/{id}")]
+        public IActionResult Recuperar(int id)
+        {
+            try
+            {
+                return Ok(_clienteRepositorio.ObterPorId(id));
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest(ex.ToString());
+            }
+        }
+
+        [HttpPost]
+        public IActionResult Post([FromBody] Cliente cliente)
+        {
+            try
+            {
+                _clienteRepositorio.Adicionar(cliente);
+                return Created("api/cliente", cliente);
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPut]
+        public IActionResult Put([FromBody] Cliente cliente)
+        {
+            try
+            {
+                _clienteRepositorio.Atualizar(cliente);
+                return Created("api/cliente", cliente);
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        
+        [HttpDelete]
+        [Route("Excluir/{id}")]
+
+        public IActionResult Delete(int id)
+        {
+            try
+            {
+                var cliente = _clienteRepositorio.ObterPorId(id);
+                if (cliente != null)
+                {
+                    _clienteRepositorio.Atualizar(cliente);
+                    return Ok(cliente);
+                }
+                else
+                {
+                    return BadRequest($"Id não eocnotrado {id}");
+                }
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        
     }
 }

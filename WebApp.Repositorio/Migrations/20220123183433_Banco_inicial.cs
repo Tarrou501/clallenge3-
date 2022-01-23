@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace WebApp.Repositorio.Migrations
 {
-    public partial class Banco_de_Dados_inicial : Migration
+    public partial class Banco_inicial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
