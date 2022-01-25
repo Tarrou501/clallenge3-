@@ -1,0 +1,13 @@
+C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Repositorio\bin\Debug\netcoreapp2.2\WebApp.Repositorio.deps.json
+C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Repositorio\bin\Debug\netcoreapp2.2\WebApp.Repositorio.dll
+C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Repositorio\bin\Debug\netcoreapp2.2\WebApp.Repositorio.pdb
+C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Repositorio\obj\Debug\netcoreapp2.2\WebApp.Repositorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Repositorio\obj\Debug\netcoreapp2.2\WebApp.Repositorio.AssemblyInfoInputs.cache
+C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Repositorio\obj\Debug\netcoreapp2.2\WebApp.Repositorio.AssemblyInfo.cs
+C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Repositorio\obj\Debug\netcoreapp2.2\WebApp.Repositorio.csproj.CoreCompileInputs.cache
+C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Repositorio\obj\Debug\netcoreapp2.2\WebApp.Repositorio.dll
+C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Repositorio\obj\Debug\netcoreapp2.2\WebApp.Repositorio.pdb
+C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Repositorio\bin\Debug\netcoreapp2.2\WebApp.Dominio.dll
+C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Repositorio\bin\Debug\netcoreapp2.2\WebApp.Dominio.pdb
+C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Repositorio\obj\Debug\netcoreapp2.2\WebApp.Repositorio.csproj.AssemblyReference.cache
+C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Repositorio\obj\Debug\netcoreapp2.2\WebApp.Repositorio.csproj.CopyComplete

@@ -1,0 +1,9 @@
+C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Dominio\bin\Debug\netcoreapp2.2\WebApp.Dominio.deps.json
+C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Dominio\bin\Debug\netcoreapp2.2\WebApp.Dominio.dll
+C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Dominio\bin\Debug\netcoreapp2.2\WebApp.Dominio.pdb
+C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Dominio\obj\Debug\netcoreapp2.2\WebApp.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Dominio\obj\Debug\netcoreapp2.2\WebApp.Dominio.AssemblyInfoInputs.cache
+C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Dominio\obj\Debug\netcoreapp2.2\WebApp.Dominio.AssemblyInfo.cs
+C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Dominio\obj\Debug\netcoreapp2.2\WebApp.Dominio.csproj.CoreCompileInputs.cache
+C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Dominio\obj\Debug\netcoreapp2.2\WebApp.Dominio.dll
+C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Dominio\obj\Debug\netcoreapp2.2\WebApp.Dominio.pdb

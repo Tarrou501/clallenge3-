@@ -1,0 +1,16 @@
+.sidenav{
+    background-color: rgb(40, 70, 126);
+    width: 200px;
+}
+
+.sidenav a{
+    color:rgb(235, 171, 88)
+}
+
+.sidenav i{
+    padding-right: 12px;
+}
+.content{
+    padding:  16px;
+    background-color: #FFF;
+}
