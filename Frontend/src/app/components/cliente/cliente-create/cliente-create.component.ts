@@ -11,11 +11,11 @@ import { Cliente } from '../cliente.model';
 export class ClienteCreateComponent implements OnInit {
 
   cliente: Cliente = {
-     nome:'jose',
-     sobreNome:'lima',
-     cpf:'01009009012',
-     dataNasc:'1988-08-01',
-     profissao: 1 
+     nome:'',
+     sobreNome:'',
+     cpf:'',
+     dataNasc:'' ,
+     profissao: 0 
   }
   
   constructor(private clienteService: ClienteService,

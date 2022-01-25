@@ -1,4 +1,36 @@
-<p id='propLegal'>cliente-create works!</p>
+<mat-card>
+    <mat-card-title>Novo Produto</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome" [(ngModel)]="cliente.nome" name="nome" required>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Sobrenome" [(ngModel)]="cliente.sobreNome" name="sobrenome" required>
+        </mat-form-field>
 
-<button mat-raised-button (click) ='createCliente()' color='primary'>Salvar</button>
-<button mat-raised-button (click) ='cancel()'>Cancelar</button>
+        <mat-form-field>
+            <input  matInput placeholder="Cpf"   [(ngModel)]="cliente.cpf" name="cpf"required>
+         
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Data de Nascimento" type="date"  [(ngModel)]="cliente.dataNasc" name="datanasc" required >
+     
+        </mat-form-field>
+      
+
+        <mat-form-field>
+            <mat-select [(ngModel)]="cliente.profissao" name="profissao">
+                <mat-option>Opcional</mat-option>
+                <mat-option value="1">Programador</mat-option>
+                <mat-option value="2">Analista</mat-option>
+                <mat-option value="3">Gerente</mat-option>
+                <mat-option value="4">Estagiário</mat-option>
+                <mat-option value="5">QA</mat-option>
+            </mat-select>
+        </mat-form-field>
+
+    </form>
+    <button mat-raised-button (click)='createCliente()' color='primary'>Salvar</button>
+    <button mat-raised-button (click)='cancel()'>Cancelar</button>
+</mat-card>

@@ -29,9 +29,10 @@ namespace WebApp.API.Controllers
             }
         }
 
-        [HttpGet]
-        [Route("Recuperar/{id}")]
-        public IActionResult Recuperar(int id)
+        [HttpGet("{id}")]
+        //[Route("Recuperar/{id}")]
+       // public IActionResult Recuperar(int id)
+        public IActionResult Get(int id)
         {
             try
             {

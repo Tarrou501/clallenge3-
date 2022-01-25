@@ -7,3 +7,4 @@ C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Dominio\obj\Debug\netcoreapp2.2
 C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Dominio\obj\Debug\netcoreapp2.2\WebApp.Dominio.csproj.CoreCompileInputs.cache
 C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Dominio\obj\Debug\netcoreapp2.2\WebApp.Dominio.dll
 C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Dominio\obj\Debug\netcoreapp2.2\WebApp.Dominio.pdb
+C:\Projetos\fagrontech\clallenge3-\WebApp\WebApp.Dominio\obj\Debug\netcoreapp2.2\WebApp.Dominio.csproj.AssemblyReference.cache

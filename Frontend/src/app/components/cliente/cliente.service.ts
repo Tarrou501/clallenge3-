@@ -23,5 +23,10 @@ export class ClienteService {
   create(cliente: Cliente): Observable<Cliente>{
     console.log(cliente);
      return this.http.post<Cliente>(this.baseUrl,cliente);  
+
+  }
+
+  read(): Observable<Cliente[]>{
+    return this.http.get<Cliente[]>(this.baseUrl);   
   }
 }

@@ -13,17 +13,40 @@ namespace WebApp.Dominio.Entidades
         public string Cpf { get; set; }
         public DateTime DataNasc { get; set; }
 
-        public int Idade {            
-            get {
-                return CalcularIdade();               
-            }        
+        public int Idade
+        {
+            get
+            {
+                return CalcularIdade();
+            }
         }
 
         public System.Nullable<int> Profissao { get; set; }
+        
+        public String NomeProfissao
+        {
+            get
+            {
+                if (Profissao != null)
+                {
+                    switch (this.Profissao)
+                    {
+                        case 1: return "Programador";
+                        case 2: return "Analista";
+                        case 3: return "Gerente";
+                        case 4: return "Estagiário";
+                        case 5: return "QA";
+                    }
+                }
+                return "";
+            }
+        }
+
+
 
         private int CalcularIdade()
         {
-            DateTime dataAtual =  DateTime.Now;
+            DateTime dataAtual = DateTime.Now;
             var dataAniv = DataNasc;
             if ((dataAtual.Month > DataNasc.Month) || (dataAtual.Month == DataNasc.Month && dataAtual.Day >= DataNasc.Day))
                 return dataAtual.Year - DataNasc.Year;

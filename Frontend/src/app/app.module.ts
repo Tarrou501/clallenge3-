@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule,LOCALE_ID } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -19,6 +19,21 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { HttpClientModule } from '@angular/common/http';
 
+import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatSelectModule } from '@angular/material/select';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { ClienteReadComponent } from './components/cliente/cliente-read/cliente-read.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+import { ClienteRead2Component } from './components/cliente/cliente-read2/cliente-read2.component';
+import localePt from '@angular/common/locales/pt';
+import { registerLocaleData} from '@angular/common';
+import { CpfPipe } from './components/Utils/cpf.pipe'
+registerLocaleData(localePt);
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,8 +42,10 @@ import { HttpClientModule } from '@angular/common/http';
     NavComponent,
     HomeComponent,
     ClienteCrudComponent,
-    ClienteCreateComponent
-
+    ClienteCreateComponent,
+    ClienteReadComponent,
+    ClienteRead2Component,
+    CpfPipe
   ],
   imports: [
     BrowserModule,
@@ -40,9 +57,20 @@ import { HttpClientModule } from '@angular/common/http';
     MatCardModule,
     MatButtonModule,
     MatSnackBarModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatSelectModule,
+    MatDatepickerModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
-  providers: [],
+  providers: [{
+    provide:LOCALE_ID,
+    useValue:'pt-BR'
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
