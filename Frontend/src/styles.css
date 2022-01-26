@@ -10,3 +10,21 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .v-middle{
     vertical-align: middle;
 }
+.msg-success{
+  background-color: #28a745;
+  color:#fff;
+}
+
+.msg-error{
+  background-color: #b4250c;
+  color:#fff;
+}
+
+.notif-success {
+  color: #155724 !important;
+  background-color: #d4edda !important;
+  border-color: #c3e6cb !important;
+  .mat-simple-snackbar-action {
+      color: #155724 !important;
+  }
+}

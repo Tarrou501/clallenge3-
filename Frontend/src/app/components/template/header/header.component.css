@@ -11,6 +11,7 @@
     display: inline-flex;
     align-items: center;
     text-decoration: none;   
+    color:#FFF;
 }
 
 .header .logo{
