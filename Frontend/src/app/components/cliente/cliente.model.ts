@@ -1,10 +1,10 @@
 export interface Cliente {
-    id?:number
+    id:number
     nome:string
     sobreNome:string
-    cpf?:string
-    dataNasc?:string
-    idade?: number 
+    cpf:string
+    dataNasc:string
+    idade: number 
     profissao?:number
     nomeProfissao?:string
 }

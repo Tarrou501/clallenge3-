@@ -12,10 +12,12 @@ import { NgCpfModule } from 'ngcpf';
 export class ClienteCreateComponent implements OnInit {
 
   cliente: Cliente = {
-     nome:'',
+    id:0, 
+    nome:'',
      sobreNome:'',
      cpf:'',
      dataNasc:'' ,
+     idade:0,
      profissao: 0 
   }
   

@@ -28,11 +28,11 @@ import { ClienteReadComponent } from './components/cliente/cliente-read/cliente-
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
-import { ClienteRead2Component } from './components/cliente/cliente-read2/cliente-read2.component';
 import localePt from '@angular/common/locales/pt';
 import { registerLocaleData} from '@angular/common';
 import { CpfPipe } from './components/Utils/cpf.pipe';
-import { ClienteUpdateComponent } from './components/cliente/cliente-update/cliente-update.component'
+import { ClienteUpdateComponent } from './components/cliente/cliente-update/cliente-update.component';
+import { ClienteDeleteComponent } from './components/cliente/cliente-delete/cliente-delete.component'
 registerLocaleData(localePt);
 
 @NgModule({
@@ -45,9 +45,9 @@ registerLocaleData(localePt);
     ClienteCrudComponent,
     ClienteCreateComponent,
     ClienteReadComponent,
-    ClienteRead2Component,
     CpfPipe,
-    ClienteUpdateComponent
+    ClienteUpdateComponent,
+    ClienteDeleteComponent
   ],
   imports: [
     BrowserModule,

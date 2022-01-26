@@ -11,10 +11,12 @@ import { Cliente } from '../cliente.model';
 export class ClienteUpdateComponent implements OnInit {
 
   cliente: Cliente = {
+    id:0,
     nome:'',
     sobreNome:'',
     cpf:'',
     dataNasc:'' ,
+    idade:0,
     profissao: 0 
  }
  

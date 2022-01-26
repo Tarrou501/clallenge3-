@@ -1,0 +1,19 @@
+<mat-card>
+    <mat-card-title>Excluir Cliente</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome" [value]="cliente.nome" name="nome" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Sobrenome" [value]="cliente.sobreNome" name="sobrenome" disabled>
+        </mat-form-field>
+
+        <mat-form-field>
+            <input  matInput placeholder="Cpf"   [(ngModel)]="cliente.cpf" name="cpf" disable>
+         
+        </mat-form-field>
+
+    </form>
+    <button mat-raised-button (click)='deleteCliente()' color='warn'>Excluir</button>
+    <button mat-raised-button (click)='cancel()'>Cancelar</button>
+</mat-card>
