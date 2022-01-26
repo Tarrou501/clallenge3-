@@ -1,5 +1,5 @@
 <mat-card>
-    <mat-card-title>Novo Cliente</mat-card-title>
+    <mat-card-title>Alterar Cliente</mat-card-title>
     <form>
         <mat-form-field>
             <input matInput placeholder="Nome" [(ngModel)]="cliente.nome" name="nome" required>
@@ -17,7 +17,10 @@
             <input matInput placeholder="Data de Nascimento" type="date"  [(ngModel)]="cliente.dataNasc" name="datanasc" required >
      
         </mat-form-field>
-      
+        <mat-form-field>
+            <input  matInput placeholder="profissao"   [(ngModel)]="cliente.profissao" name="profissao2"required>
+         
+        </mat-form-field>
 
         <mat-form-field>
             <mat-select [(ngModel)]="cliente.profissao" name="profissao">
@@ -31,6 +34,6 @@
         </mat-form-field>
 
     </form>
-    <button mat-raised-button (click)='createCliente()' color='primary'>Salvar</button>
+    <button mat-raised-button (click)='updateCliente()' color='primary'>Salvar</button>
     <button mat-raised-button (click)='cancel()'>Cancelar</button>
 </mat-card>

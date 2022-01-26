@@ -41,7 +41,7 @@
         <ng-container matColumnDef="action">
             <th mat-heSader-cell *matHeaderCellDef>Ações</th>
             <td mat-cell *matCellDef="let clienteRow">
-                <a routerLink="" class= "edit">
+                <a routerLink="/clientes/update/{{clienteRow.id}}" class= "edit">
                     <i class="material-icons">
                         edit
                     </i>

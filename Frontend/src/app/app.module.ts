@@ -31,7 +31,8 @@ import { MatSortModule } from '@angular/material/sort';
 import { ClienteRead2Component } from './components/cliente/cliente-read2/cliente-read2.component';
 import localePt from '@angular/common/locales/pt';
 import { registerLocaleData} from '@angular/common';
-import { CpfPipe } from './components/Utils/cpf.pipe'
+import { CpfPipe } from './components/Utils/cpf.pipe';
+import { ClienteUpdateComponent } from './components/cliente/cliente-update/cliente-update.component'
 registerLocaleData(localePt);
 
 @NgModule({
@@ -45,7 +46,8 @@ registerLocaleData(localePt);
     ClienteCreateComponent,
     ClienteReadComponent,
     ClienteRead2Component,
-    CpfPipe
+    CpfPipe,
+    ClienteUpdateComponent
   ],
   imports: [
     BrowserModule,

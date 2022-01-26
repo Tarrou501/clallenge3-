@@ -29,4 +29,16 @@ export class ClienteService {
   read(): Observable<Cliente[]>{
     return this.http.get<Cliente[]>(this.baseUrl);   
   }
+
+  readById(id:string): Observable<Cliente>{
+    const url = `${this.baseUrl}/${id}`;
+    return this.http.get<Cliente>(url);   
+  }
+
+  update(cliente: Cliente): Observable<Cliente>{
+    //const url = `${this.baseUrl}/${cliente.id}`;
+
+    return  this.http.put<Cliente>(this.baseUrl,cliente);   
+  }
+
 }

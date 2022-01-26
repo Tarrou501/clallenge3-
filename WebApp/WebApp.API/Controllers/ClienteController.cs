@@ -45,7 +45,7 @@ namespace WebApp.API.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] Cliente cliente)
+        public IActionResult Post( [FromBody] Cliente cliente)
         {
             try
             {
@@ -71,10 +71,10 @@ namespace WebApp.API.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        
-        [HttpDelete]
-        [Route("Excluir/{id}")]
 
+        //[HttpDelete]
+        //[Route("Excluir/{id}")]
+        [HttpDelete("{id}")] 
         public IActionResult Delete(int id)
         {
             try
@@ -82,7 +82,7 @@ namespace WebApp.API.Controllers
                 var cliente = _clienteRepositorio.ObterPorId(id);
                 if (cliente != null)
                 {
-                    _clienteRepositorio.Atualizar(cliente);
+                    _clienteRepositorio.Remover(cliente);
                     return Ok(cliente);
                 }
                 else

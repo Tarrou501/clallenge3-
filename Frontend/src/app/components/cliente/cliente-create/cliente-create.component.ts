@@ -2,6 +2,7 @@ import { ClienteService } from './../cliente.service';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Cliente } from '../cliente.model';
+import { NgCpfModule } from 'ngcpf';
 
 @Component({
   selector: 'app-cliente-create',
